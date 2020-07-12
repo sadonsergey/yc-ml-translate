@@ -1,12 +1,12 @@
 <?php
 
 
-namespace YandexTranslate;
+namespace ssadon;
 
 
 /**
  * Interface YandexTranslateInterface
- * @package YandexTranslate
+ * @package ssadon
  */
 interface YandexTranslateInterface
 {

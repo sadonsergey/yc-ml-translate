@@ -1,10 +1,11 @@
 <?php
 
-namespace YandexTranslate\Tests;
+namespace ssadon\Tests;
 
 use Dotenv\Dotenv;
 use PHPUnit\Framework\TestCase;
-use YandexTranslate\YandexTranslate;
+use ssadon\YandexTranslate;
+
 
 /**
  * Class BaseCase
@@ -12,7 +13,7 @@ use YandexTranslate\YandexTranslate;
  */
 abstract class BaseCase extends TestCase
 {
-
+    /* @var YandexTranslate */
     public $yandexTranslate;
 
     /**

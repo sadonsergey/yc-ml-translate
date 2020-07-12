@@ -1,10 +1,11 @@
 <?php
 
-namespace YandexTranslate\Tests;
+namespace ssadon\Tests;
+
 
 /**
  * Class TranslateCase
- * @package YandexTranslate\Tests
+ * @package ssadon\Tests
  */
 class TranslateCase extends BaseCase
 {

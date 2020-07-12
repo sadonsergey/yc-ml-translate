@@ -1,6 +1,6 @@
 <?php
 
-namespace YandexTranslate;
+namespace ssadon;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 /**
  * Class YandexTranslate
- * @package YandexTranslate
+ * @package ssadon
  */
 class YandexTranslate implements YandexTranslateInterface
 {
