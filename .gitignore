@@ -1,0 +1,8 @@
+/vendor
+/.env
+*.lock
+*.log
+/.idea
+/.vscode
+/.git
+/.phpunit*
