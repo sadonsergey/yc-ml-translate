@@ -1,35 +1,40 @@
 {
-    "name": "sadonsergey/yc-ml-translate",
-    "type": "library",
-    "description": "Yandex ML Translate for Yandex Cloud",
-    "keywords": [
-        "yandex",
-        "translate",
-        "ml",
-        "cloud"
-    ],
-    "homepage": "https://github.com/sadonsergey/yc-ml-translate",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sadon Sergey",
-            "email": "sadonsergey@gmail.com",
-            "homepage": "https://github.com/sadonsergey",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.2.5",
-        "guzzlehttp/guzzle": "^7.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.5",
-        "vlucas/phpdotenv": "^5.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "ssadon\\Tests\\": "tests/",
-            "ssadon\\": "src/"
-        }
+  "name": "sadonsergey/yc-ml-translate",
+  "type": "library",
+  "description": "Yandex ML Translate for Yandex Cloud (AI API)",
+  "keywords": [
+    "yandex",
+    "cloud",
+    "translate",
+    "ml",
+    "machine",
+    "learning",
+    "AI",
+    "api"
+  ],
+  "homepage": "https://github.com/sadonsergey/yc-ml-translate",
+  "license": "MIT",
+  "readme": "https://github.com/sadonsergey/yc-ml-translate/master/README.md",
+  "authors": [
+    {
+      "name": "Sadon Sergey",
+      "email": "sadonsergey@gmail.com",
+      "homepage": "https://github.com/sadonsergey",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "vlucas/phpdotenv": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ssadon\\Tests\\": "tests/",
+      "ssadon\\": "src/"
+    }
+  }
 }

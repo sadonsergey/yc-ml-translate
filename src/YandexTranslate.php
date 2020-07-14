@@ -40,12 +40,7 @@ class YandexTranslate implements YandexTranslateInterface
      */
     public function __construct($OAuthToken = null, $IAMToken = null, $folderId = null)
     {
-        /* Validate folder */
-        if (!$folderId) {
-            throw new \Exception('Folder id not set.');
-        } else {
-            $this->folderId = $folderId;
-        }
+        $this->folderId = $folderId;
 
         /* Validate token */
         if ($IAMToken) {
